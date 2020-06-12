@@ -7,29 +7,24 @@ import com.core.shibaev.first.validator.NumericValidator;
 
 public class GeometryService {
     private static final double PI = 3.1415926;
-    public Circle calculateCircle(String radius) throws CustomExeption {
-        Circle circle =null;
-        double radValue;
-        double area;
-        double length;
-        if(NumericValidator.IsRadius(radius))
-        {
-            radValue = Double.parseDouble(radius);
-        }
-        else
-        {
+
+    public Circle calculateCircle(double radius) throws CustomExeption {
+        if (!NumericValidator.IsRadius(radius)) {
             throw new CustomExeption("Wrong Input");
         }
-        area = PI * Math.pow(radValue,2);
-        length = 2*PI*radValue;
-        circle = new Circle(radValue,area,length);
+        Circle circle = null;
+        double area;
+        double length;
+        area = PI * Math.pow(radius, 2);
+        length = 2 * PI * radius;
+        circle = new Circle(radius, area, length);
         return circle;
     }
-    public double calculateInscribedSquare(String describedSquareArea) throws CustomExeption {
-        if (NumericValidator.StringIsDouble(describedSquareArea)) {
-            return Double.parseDouble(describedSquareArea) / 2;
-        } else {
-            throw new CustomExeption("WrongInput");
+
+    public double calculateInscribedSquare(double describedSquareArea) throws CustomExeption {
+        if (!NumericValidator.IsArea(describedSquareArea)) {
+            throw new CustomExeption("Wrong Input");
         }
+        return describedSquareArea / 2;
     }
 }

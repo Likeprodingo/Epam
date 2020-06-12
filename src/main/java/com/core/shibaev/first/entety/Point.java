@@ -11,10 +11,33 @@ public class Point {
 
     @Override
     public String toString() {
-        return "Point{" +
-                "xCordinate=" + xCordinate +
-                ", yCordinate=" + yCordinate +
-                '}';
+        final StringBuffer sb = new StringBuffer("Point{");
+        sb.append("xCordinate=").append(xCordinate);
+        sb.append(", yCordinate=").append(yCordinate);
+        sb.append('}');
+        return sb.toString();
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Point point = (Point) o;
+
+        if (Double.compare(point.xCordinate, xCordinate) != 0) return false;
+        return Double.compare(point.yCordinate, yCordinate) == 0;
+    }
+
+    @Override
+    public int hashCode() {
+        int result;
+        long temp;
+        temp = Double.doubleToLongBits(xCordinate);
+        result = (int) (temp ^ (temp >>> 32));
+        temp = Double.doubleToLongBits(yCordinate);
+        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        return result;
     }
 
     public double getxCordinate() {

@@ -1,51 +1,25 @@
 package com.core.shibaev.first.validator;
 
 public class NumericValidator {
-    public static boolean StringIsDouble(String value)
-    {
-        double numeric;
-        try {
-            numeric = Double.parseDouble(value);
-            if(numeric>Double.MAX_VALUE-1 || numeric < Double.MIN_VALUE+1){
-
-                return false;
-            }
-        }
-        catch (NumberFormatException e)
-        {
-            return false;
-        }
-        return true;
-    }
-    public static boolean IsRadius(String value)
-    {
+    public static boolean IsRadius(double numeric) {
         boolean result = true;
-        double numeric;
-        try {
-            numeric = Double.parseDouble(value);
-            if(numeric>Double.MAX_VALUE-1 || numeric < 0){
-                result = false;
-            }
-        }
-        catch (NumberFormatException e)
-        {
+        if (numeric < 1 || numeric > 100) {
             result = false;
         }
         return result;
     }
-    public static boolean StringIsInt(String value)
-    {
-        int numeric;
-        try {
-            numeric = Integer.parseInt(value);
-            if(numeric>Integer.MAX_VALUE-1 || numeric < Integer.MIN_VALUE+1){
-                return false;
-            }
+    public static boolean IsArea(double numeric) {
+        boolean result = true;
+        if (numeric < 1 || numeric > 1000) {
+            result = false;
         }
-        catch (NumberFormatException e)
-        {
-            return false;
+        return result;
+    }
+    public static boolean IsNatural(double numeric) {
+        boolean result = true;
+        if (numeric < 0 || numeric > 10000) {
+            result = false;
         }
-        return true;
+        return result;
     }
 }

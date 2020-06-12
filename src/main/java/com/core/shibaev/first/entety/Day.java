@@ -24,6 +24,26 @@ public class Day {
         return minutes;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Day day = (Day) o;
+
+        if (hours != day.hours) return false;
+        if (minutes != day.minutes) return false;
+        return seconds == day.seconds;
+    }
+
+    @Override
+    public int hashCode() {
+        int result = hours;
+        result = 31 * result + minutes;
+        result = 31 * result + seconds;
+        return result;
+    }
+
     public int getSeconds() {
         return seconds;
     }

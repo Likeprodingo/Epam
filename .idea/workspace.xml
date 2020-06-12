@@ -1,47 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97d1d27e-456e-4564-bb1b-6f042a373099" name="Default Changelist" comment="Refactored Without Tests">
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/TaskController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/DayController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/FunctionController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/NumericController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/PointController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/enteties/Day.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/enteties/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/EighthTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FifthTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FirstTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FourthTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/SeventhTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/SixthTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/ThirdTaskMain.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/outputs/ConsoleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/validators/DayValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/validators/NumericValidator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Month.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/exeption/CustomExeption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/DateService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/FunctionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/GeometryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/NumericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/PointService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/DateValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/DayValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/NumericValidator.java" afterDir="false" />
+    <list default="true" id="97d1d27e-456e-4564-bb1b-6f042a373099" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Epam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epam.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/TaskController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/DayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/FunctionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/NumericController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/controllers/PointController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/enteties/Day.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/enteties/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/EighthTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FifthTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FirstTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/FourthTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/SeventhTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/SixthTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/mains/ThirdTaskMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/outputs/ConsoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/validators/DayValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Epam/com/core/shibaev/first/validators/NumericValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Day.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/entety/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/DateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/DateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/FunctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/FunctionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/GeometryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/GeometryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/NumericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/NumericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/PointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/service/PointService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/DateValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/DayValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/NumericValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/core/shibaev/first/validator/NumericValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,127 +78,84 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Application.EighthTaskMain">
-    <configuration name="EighthTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.shibaev.first.mains.EighthTaskMain" />
+  <component name="RunManager" selected="TestNG.NumericValidatorTest">
+    <configuration name="DateValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="epam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.core.shibaev.first.mains.*" />
+          <option name="PATTERN" value="validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="validator" />
+      <option name="MAIN_CLASS_NAME" value="validator.DateValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FifthTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.shibaev.first.mains.FifthTaskMain" />
+    <configuration name="NumericTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="service.NumericTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumericTest.divisionSquareTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epam" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="service.NumericTest" />
+      <option name="METHOD_NAME" value="divisionSquareTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumericValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="epam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.core.shibaev.first.mains.*" />
+          <option name="PATTERN" value="validator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="validator" />
+      <option name="MAIN_CLASS_NAME" value="validator.NumericValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourthTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.shibaev.first.mains.FourthTaskMain" />
+    <configuration name="PointTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="epam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.core.shibaev.first.mains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeventhTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.shibaev.first.mains.SeventhTaskMain" />
-      <module name="epam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.core.shibaev.first.mains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SixthTaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.core.shibaev.first.mains.SixthTaskMain" />
-      <module name="epam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.core.shibaev.first.mains.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="epam" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="epam" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="service.PointTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EighthTaskMain" />
-        <item itemvalue="Application.SeventhTaskMain" />
-        <item itemvalue="Application.SixthTaskMain" />
-        <item itemvalue="Application.FifthTaskMain" />
-        <item itemvalue="Application.FourthTaskMain" />
+        <item itemvalue="TestNG.NumericValidatorTest" />
+        <item itemvalue="TestNG.DateValidatorTest" />
+        <item itemvalue="TestNG.PointTest" />
+        <item itemvalue="TestNG.NumericTest" />
+        <item itemvalue="TestNG.NumericTest.divisionSquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +203,8 @@
       <workItem from="1591706948285" duration="599000" />
       <workItem from="1591793648432" duration="2309000" />
       <workItem from="1591821966355" duration="1444000" />
-      <workItem from="1591879007263" duration="1097000" />
+      <workItem from="1591879007263" duration="4144000" />
+      <workItem from="1591902564527" duration="18044000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored Without Tests">
       <created>1591879441143</created>
@@ -256,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591879441143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactored Without Tests">
+      <created>1591880174090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591880174090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,10 +235,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="70" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1591069679897" />
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1591796973736">
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1591960893008">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591796973736" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591960893008" />
     <state x="400" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591879269112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -283,34 +247,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="297" width="403" height="239" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1590913689625" />
-    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1591880105379">
+    <state x="393" y="6" key="CommitChangelistDialog2" timestamp="1591880171808">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591880105379" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591285561079">
+    <state x="393" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1591880171808" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591970733484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591285561079" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591285561079">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591970733484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591970733484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591285561079" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591285561079">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591970733484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591970733484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591285561079" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591285561079">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591970733484" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591970733484">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591285561079" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1591879226673">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591970733484" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1591916757383">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591879226673" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591879006516">
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591916757383" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591902691528">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591879006516" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591902691528" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1591879225951">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -319,6 +283,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1591879394572" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591951264005">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591951264005" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591262478141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
